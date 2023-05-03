@@ -68,6 +68,7 @@ requires = ["setuptools>=64", "setuptools_scm[toml]>=6.2"]
 
 [tool.setuptools_scm]
 write_to = "codespell_lib/_version.py"
+version_scheme = "release-branch-semver"
 
 [tool.setuptools.packages.find]
 exclude = [
